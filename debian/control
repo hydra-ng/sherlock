@@ -1,0 +1,23 @@
+Source: sherlock
+Section: unknown
+Priority: optional
+Maintainer: Joe <joe@rstrike.my.id>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/sherlock-project/sherlock
+Vcs-Browser: https://github.com/pwnpine/sherlock
+Vcs-Git: https://github.com/pwnpine/sherlock.git
+
+Package: sherlock
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ python3-pandas,
+ python3-requests-futures,
+ python3-colorama,
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: Hunt down social media account by username
+	accross social network.

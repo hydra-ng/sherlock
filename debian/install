@@ -1,0 +1,9 @@
+debian/helper-script/sherlock usr/bin/
+debian/sherlock-project/resources usr/share/sherlock/
+debian/sherlock-project/__init__.py usr/share/sherlock/
+debian/sherlock-project/__main__.py usr/share/sherlock/
+debian/sherlock-project/notify.py usr/share/sherlock/
+debian/sherlock-project/py.typed usr/share/sherlock/
+debian/sherlock-project/result.py usr/share/sherlock/
+debian/sherlock-project/sites.py usr/share/sherlock/
+debian/sherlock-project/sherlock.py usr/share/sherlock/
