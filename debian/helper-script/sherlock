@@ -2,4 +2,4 @@
 
 set -e
 
-python3 /usr/share/sherlock/sherlock.py "$@"
+python3 /usr/local/Library/Applications/sherlock/sherlock.py "$@"
